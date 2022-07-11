@@ -1,0 +1,42 @@
+.heading {
+    @is mb-1;
+
+    & .heading__title {
+        @is h2;
+    }
+    
+    & .heading__sub {
+        @is p1 semi-bold;
+    }
+
+    &.--1 {
+        & .heading__title {
+            @is h1;
+        }
+    
+        & .heading__sub {
+            @is h5 normal-font;
+        }
+    }
+
+    &.--3 {
+        & .heading__title {
+            @is h3 bold upper-case;
+        }
+
+        & .heading__sub {
+            @is small bold;
+        }
+    }
+    
+
+    &.--4 {
+        & .heading__title {
+            @is h4;
+        }
+
+        & .heading__sub {
+            @is small semi-bold;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+/* Margin */
+@trait mb-1 {
+    margin-bottom: 1rem;
+}
+
+@trait mx {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@trait mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Padding */
+@trait pad padding: 1rem;
+
+/* Sizing */
+@trait fill {
+    height: 100%;
+    width: 100%;
+}
+
+@trait responsive-container {
+    @media screen and (min-width: $md-floor) and (max-width: $md-ceil) {
+        max-width: 640px;
+    }
+
+    @media screen and (min-width: $lg-floor) and (max-width: $lg-ceil) {
+        max-width: 1120px;
+    }
+
+    @media screen and (min-width: $xl-floor) {
+        max-width: 1440px;
+    }
+}

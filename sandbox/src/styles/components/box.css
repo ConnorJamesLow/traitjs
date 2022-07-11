@@ -1,0 +1,11 @@
+.box {
+    @is pad fill;
+
+    &.--border {
+        @is bordered rounded;
+    }
+
+    &.--light {
+        @is bg-light;
+    }
+}

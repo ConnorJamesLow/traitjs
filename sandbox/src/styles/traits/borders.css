@@ -1,0 +1,13 @@
+@trait bordered {
+    border: var(--border-width, 1px) var(--border-style, solid) var(--border-color, var(--black-coffee));
+}
+
+/* Color */
+
+/* Width */
+
+
+
+/* Misc. */
+@trait rounded border-radius: 3px;
+@trait squared border-radius: 0px;

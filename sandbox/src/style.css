@@ -1,20 +1,8 @@
+/* Variables */
+@import-glob "./styles/variables.css";
+@import-glob "./styles/root.css";
+@import-glob "./styles/traits/**/*.css";
 
-@trait spacer-t margin-top: 60px;
-@trait text-center text-align: center;
-@trait text-gray-dark color: #2c3e50;
-
-@trait body-font {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
+/* Applied Styles */
+@import-glob "./styles/base.css";
+@import-glob "./styles/components/**/*.css";

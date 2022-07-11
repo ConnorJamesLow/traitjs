@@ -1,0 +1,11 @@
+/* Box Sizing */
+@trait border-box box-sizing: border-box;
+
+/* Display */
+@trait block display: block;
+@trait flex display: flex;
+@trait hidden display: none;
+@trait inline-block display: inline-block;
+
+/* Visibility */
+@trait invisible visibility: hidden;

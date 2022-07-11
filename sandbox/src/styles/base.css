@@ -1,0 +1,22 @@
+@import "./lib/unset.css";
+
+head,
+style,
+script,
+meta,
+title,
+link {
+    @is hidden;
+}
+
+html {
+    @is system-font typography-root;
+}
+
+body {
+    @is bg-light text-dark;
+}
+
+* {
+    @is border-box block;
+}

@@ -1,0 +1,24 @@
+@trait bg-light background: var(--neutral-50);
+@trait bg-dark background: var(--black-coffee);
+@trait text-dark color: var(--black-coffee);
+@trait text-light color: var(--misty-rose);
+
+@trait blue {
+    background: var(--blue-500);
+    color: var(--neutral-50);
+}
+
+@trait red {
+    background: var(--red-700);
+    color: var(--neutral-50);
+}
+
+@trait green {
+    background: var(--green-800);
+    color: var(--neutral-50);
+}
+
+@trait neutral {
+    background: var(--neutral-800);
+    color: var(--neutral-100);
+}
